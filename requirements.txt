@@ -1,0 +1,17 @@
+aiohttp
+asgiref
+async-timeout
+attrs
+beautifulsoup4
+certifi
+chardet
+idna
+lxml
+multidict
+pytz
+requests
+search-engine-parser
+soupsieve
+sqlparse
+urllib3
+yarl
