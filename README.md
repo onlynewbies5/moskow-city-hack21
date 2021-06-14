@@ -7,7 +7,7 @@ SkillPathBuild.ipnyb - построение пути прокачким навы
 VacancyParser.ipnyb - парсер вакансий с сайта hh.ru, подготовка данных для построения эталонных вакансий, 
 которые используются в модуле SkillPathBuild.ipnyb
 
-# SkillPathBuild
+## SkillPathBuild
 На данный момент уровень на который претендует клиент необходимо указывать вручную
 Построение пути развития производится при вызове функции 
 FinalOutput(client1, vacs_ideal, courses_db, level, threshold, criterion)
