@@ -12,7 +12,7 @@
 На данный момент уровень на который претендует клиент необходимо указывать вручную. 
 
 ## 2.1. Основные функции:
-**SkillGraph(skill, all_courses, client)** 
+* **SkillGraph(skill, all_courses, client)** 
 Построение пути прокачки навыка
 **Входные данные:**  
 *skill* - название навыка
@@ -24,7 +24,7 @@
 *initial_nodes* - начальные узлы графа
 *final_nodes* - конечные узлы графа
 
-**FinalOutput(client1, vacs_ideal, courses_db, level, threshold, criterion)** 
+* **FinalOutput(client1, vacs_ideal, courses_db, level, threshold, criterion)** 
 Построение пути прокачки всех навыков с учетом клиентских требований 
 **Входные данные:** 
 *client1* - входной файл с данными скиллов клиента  
