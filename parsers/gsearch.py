@@ -2,15 +2,16 @@ from search_engine_parser.core.engines.google import Search as GoogleSearch
 
 gsearch = GoogleSearch()
 
-def get_query_in_google(query: dict) -> dict:
+def get_query_in_google(query: dict, pages=1) -> dict:
     """ Return result with keys
-    ini index - dict of numbers result
+    int index - dict of numbers result
     "titles" - list titles
     "links" - list links
     "descriptions" - list descriptions
+    :return: dictionary. Containing titles, links, netlocs and descriptions.
     """
     return gsearch.search(
-        query['q'], 1, url="google.ru", hl='ru',
+        query['q'], page=pages, cache=True, url="google.ru", hl='ru',
         as_sitesearch=query['as_sitesearch'])
 
 
