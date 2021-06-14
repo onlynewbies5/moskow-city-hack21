@@ -24,7 +24,6 @@
 *G* - граф курса  
 *initial_nodes* - начальные узлы графа  
 *final_nodes* - конечные узлы графа  
-
 <br/><br/>
 * **FinalOutput(client1, vacs_ideal, courses_db, level, threshold, criterion)**   
 Построение пути прокачки всех навыков с учетом клиентских требований
